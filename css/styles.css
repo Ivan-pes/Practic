@@ -262,6 +262,7 @@ flex-direction: column;
     margin-bottom: 72px;
 }
 .apps_market {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -280,17 +281,34 @@ flex-direction: column;
     width: calc((100% - 48px) / 3);
 }
 .portfolio-card {
-    padding: 32px 16px;
-    
+    padding: 32px 16px;   
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+.apps_market {
+    margin-bottom: 8px;
+    display: flex;
+}
+.par_for_p {
+    display: flex;
+}
+
 /* FOOTER */
+
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .weblogi {
     text-decoration: none;
 }
 .weblogi {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -306,4 +324,9 @@ flex-direction: column;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
+}
+.hero-footer {
+    display: flex;
+    flex-direction: column;
 }
