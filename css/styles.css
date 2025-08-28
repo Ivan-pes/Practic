@@ -206,6 +206,8 @@ flex-direction: column;
     background-color: #F4F4FD;
 }
 .our_team {
+    margin-bottom: 72px;
+    font-weight: 700px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -215,6 +217,8 @@ flex-direction: column;
 }
 .li_therd {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+   
 }
 .name_compani {
     font-weight: 500;
@@ -229,9 +233,24 @@ flex-direction: column;
     initial-letter: 0.02em;
     color: #434455;
 }
+.therd_sec {
+    padding: 120px 0;
+}
+.therd_list {
+    gap: 24px;
+    display: flex;
+}
+.team-info {
+    padding: 32px 0;
+}
 /* FOUR SECTION */
 .four_gen {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin: 0 auto;
+    
 }
 .forgen_slog {
     font-size: 36px;
@@ -240,7 +259,9 @@ flex-direction: column;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}.apps_market {
+    margin-bottom: 72px;
+}
+.apps_market {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -251,6 +272,16 @@ flex-direction: column;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.four-sec {
+    padding: 120px 0 120px 0;
+}
+.li_forgen {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-card {
+    padding: 32px 16px;
+    
 }
 /* FOOTER */
 .footer {
