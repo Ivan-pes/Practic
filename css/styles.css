@@ -45,6 +45,7 @@ flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    max-width: 100%;
 }
 .weblogo {
     font-family: Raleway, sans-serif;
